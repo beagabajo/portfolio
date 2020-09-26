@@ -1,0 +1,357 @@
+@font-face{
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Bold.ttf");
+  }
+@font-face{
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+  }
+
+header{
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logobea{
+  height: 60px;
+}
+.secciones{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main{
+  margin: 32px;
+}
+
+h1{
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #034668;
+}
+#marta h1{
+  width: 61%;
+}
+
+h2{
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #034668;
+  margin-bottom: 16px;
+}
+h3{
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #034668;
+  margin-bottom: 8px;
+  background: none;
+}
+h4{
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  text-align: center;
+  color: #011F2F;
+  margin-bottom: 24px;
+}
+p{
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 8px;
+  color: #011F2F;
+  background: none;
+}
+.projects-container {
+  margin-top: 40px;
+}
+.project {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.project-image{
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 196px;
+  border-radius: 8px 8px 0 0;
+}
+#imagen1{
+  background-image: url("../imagenes/Evento.png");
+}
+#imagen2{
+  background-image: url("../imagenes/foodhunter.png");
+}
+#imagen3{
+  background-image: url("../imagenes/goodread.jpg");
+}
+.project-info{
+    font-family: sans-serif;
+    background: #CBEDFF;
+    height: 81px;
+    overflow: hidden;
+    padding: 16px;
+    border-radius: 0 0 8px 8px;
+}
+.project-info a{
+  background: #CBEDFF;
+}
+ul{
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 14px;
+  color: #034668;
+  line-height: 21px;
+  margin-bottom: 16px;
+  color: #011F2F;
+}
+a {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #034668;
+}
+a:visited {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #034668;
+}
+ /* .footer-info{
+  padding: 36px;
+ } */
+
+ .botonemail{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 56;
+  font-size: 16px;
+  color: #011F2F;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #000000;
+ }
+ footer{
+  margin: 24px;
+  text-align: center;
+}
+.logos2{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 56px;
+ }
+.logos2 img{
+  width: 32px; 
+  margin: 0 16px;
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+  .logobea{
+    height: 112px;
+  }
+  main{
+    margin: 48px;
+  }
+  h1{
+    font-size: 48px;
+    line-height: 72px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  h3{
+    /* font-weight: bold; */
+    font-size: 24px;
+  }
+  h4{
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 48px;
+  }
+  p{
+    font-size: 22px;
+    line-height: 33px;
+  }
+.subtitulo{
+  font-size: 18px;
+  line-height: 27px;
+}
+
+  .allprojects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .project {
+    width: 33%;
+    margin-bottom: 40px;
+  }
+  .project-image{
+    height: 220px;
+  }
+  .project-info{
+      height: 100px;
+  }
+  ul{
+    font-size: 22px;
+    color: #034668;
+    line-height: 33px;
+    margin-bottom: 16px;
+    color: #011F2F;
+  }
+  a {
+    font-size: 24px;
+  }
+  a:visited {
+    font-size: 24px;
+  }
+  /* .footer-info{
+    padding: 36px;
+  } */
+
+  .botonemail{
+    padding: 16px;
+    font-size: 20px;
+  }
+  .logos2 img{
+    width: 48px; 
+    margin: 0 16px;
+  }
+  .button{
+    font-size: 14px;
+    background-color: #034668;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 56;
+      font-size: 16px;
+     }
+}
+
+@media only screen and (min-width: 1025px){
+  header{
+    padding: 24px 48px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logobea{
+    height: 81px;
+  }
+  .secciones{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+ .secciones a:first-child{
+   padding-right: 48px;
+ }
+ 
+  main{
+    margin: 48px;
+  }
+  h1{
+    font-size: 48px;
+    line-height: 72px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  h3{
+    /* font-weight: bold; */
+    font-size: 24px;
+  }
+  h4{
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 48px;;
+  }
+  footer h4{
+    font-size: 18px;
+  }
+  p{
+    font-size: 22px;
+    line-height: 33px;
+  }
+.subtitulo{
+  font-size: 18px;
+  line-height: 27px;
+}
+
+  .allprojects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .project {
+    width: 33%;
+    margin-bottom: 40px;
+  }
+  .project-image{
+    height: 220px;
+  }
+  .project-info{
+    height: 100px;
+  }
+  ul{
+    font-size: 22px;
+    color: #034668;
+    line-height: 33px;
+    margin-bottom: 16px;
+    color: #011F2F;
+  }
+  a {
+    font-size: 24px;
+  }
+  a:visited {
+    font-size: 24px;
+  }
+  /* .footer-info{
+    padding: 36px;
+  } */
+
+  .botonemail{
+    padding: 16px;
+    font-size: 20px;
+  }
+  .logos2 img{
+    width: 48px; 
+    margin: 0 16px;
+  }
+  .button{
+    font-size: 14px;
+    background-color: #034668;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 56;
+      font-size: 16px;
+     }
+}

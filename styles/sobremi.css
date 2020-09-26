@@ -1,0 +1,115 @@
+h5{
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #011F2F;
+}
+
+.textosobremi{
+    margin-top: 40px;
+    line-height: 32px;
+}
+.necesito{
+  margin-top: 40px;  
+  margin-bottom:16px;
+}
+.brevetexto{
+  margin-bottom: 16px;
+}
+
+.imagenBea{
+    height: 100%;
+    width: 100%;
+}
+.logos{
+    margin-right: 64px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+.agrupacion{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  }
+.imagen-container{
+  width: 45%;
+  display: flex;
+  }
+.imagenBea{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.necesito{
+  margin-top: 0px;  
+  margin-bottom:16px;
+}   
+.textosobremi{
+  margin-top: 0px;  
+  width: 50%;
+  }
+.logos{  
+    margin-right: 64px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (min-width: 1025px){
+
+  .agrupacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    }
+  .imagen-container{
+    width: 45%;
+    }
+  .imagenBea{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+  footer h4{
+    font-size: 18px;
+  }
+  .textosobremi{
+    width: 50%;
+    }
+  .logos{  
+      margin-right: 64px;
+      margin-left: 64px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-between;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      column-gap: 40px;
+      row-gap: 40px;
+      margin-bottom: 16px;
+    }
+  
+}

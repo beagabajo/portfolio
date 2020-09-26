@@ -1,0 +1,44 @@
+#imagen1{
+  background-image: url("../imagenes/Evento.png");
+}
+
+#imagen2{
+  background-image: url("../imagenes/foodhunter.png");
+}
+
+#imagen3{
+  background-image: url("../imagenes/goodread.jpg");
+}
+#imagen4{
+  background-image: url("../imagenes/viveh.png");
+  }
+#imagen5{
+    background-image: url("../imagenes/Wireframes.jpg");
+    }
+
+.button{
+  font-size: 14px;
+  background-color: #034668;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 56;
+   }
+h1{
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .project-info{
+    height: 142px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1025px){
+  footer h4{
+    font-size: 18px;
+  }
+}
